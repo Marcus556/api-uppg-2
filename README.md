@@ -1,6 +1,7 @@
 # Api inlämnnigsuppgift 2
 
 ## Teoretisk del
+### G:
 #### 1.  Vad är skillnaden mellan backend och databas? Beskriv vad respektive ansvarar för?
 Backend är allting som har med servern att göra, sånt användare inte ser. Där körs logik för att hantera data, medans databasen enbart finns för att lagra och servera data både till frontend och backend.
 
@@ -16,6 +17,37 @@ Ett public cloud är ett moln av servrar som tillhandahålls och underhålls av 
 
 #### 5. Varför testar vi mjukvara?
 Tester skrivs för att förhindra att man implementerar kod med buggar.
+
+### VG:
+#### 1. Vad innebär Service Oriented Architecture (SOA)
+SOA är ett sätt att bygga mjukvara där olika enkla tjänster som arbetar ihop genom att sända och ta emot data.
+
+#### 2. Vad är fördelarna med API:er jämfört med en webblösning som går direkt mot en databas?
+Fördelarna med att använda sig av API istället för att koda direkt mot backend är att man kan använda API:et till flera olika projekt, samt att man enkelt och säkert kan göra data från API:et tillgängligt public.
+
+#### 3. Vad innebär OAUTH?
+OAUTH innebär att man ger användare möjlighet att logga med sina användaruppgifter från t.ex. facebook eller google. Enkelt, smidigt och säkert. Både för utvecklare och användare.
+
+#### 4. Vilka typer av managed services erbjuds av Public Cloud och vad innebär de?
+On-Premises:
+Servrar som körs på samma fysiska plats som ägaren. Ägaren står själv för all hantering och alla kostnader såsom inköp, elektricitet och perosnal. 
+
+Infrastructure as a service:
+Server/servrar som tillhandahålls av någon annan. Man ansvarar själv för all 'mjuk' hantering, såsom installation, konfigurering, uppdatering o.s.v.
+
+Platform as a service:
+Servrar och mjukvara som tillhandahålls och sköts av någon annan. Enbart inriktad på en sorts hosting. Man själv sköter enbart koden till själva applikation.
+
+Software as a service: 
+Tjänster man bara använder såsom gmail eller google maps.
+
+#### 5. Vad innebär TDD och BDD?
+TDD - Test Driven Development innebär att man först skriver tester, sen skriver aktuell logik som ska testas.
+BDD - Behavior Driven Development innebär att man skriver tester i vanlig text och i 'layman's terms' så att alla kan förstå dem.
+
+
+
+
 
 ## Praktiskt del
 ### Produktbeskrivning
